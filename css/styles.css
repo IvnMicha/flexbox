@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-family: "Speedee",arial,helvetica,sans-serif;
+}
+.caja{
+    padding: 5px;
+}
+.caja2{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.caja3{
+    padding: 0px;
+}
+.logo {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.mi{
+    padding-top: 5%;
+}
+.la{
+    padding-top: 10px;
+}
+.boton{
+    border: 1px solid #ffc400; /*anchura, estilo y color borde*/
+    padding-top: 15px; /*espacio alrededor texto*/
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #ffc400; /*color botón*/
+    color: #464545; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    border-radius: 5px; /*bordes redondos*/
+}
+.boton1{
+    padding: 5px; /*espacio alrededor texto*/
+    color: #464545;
+    text-decoration: none; /*decoración texto*/
+}
+.helado{
+    width: 100%;
+}

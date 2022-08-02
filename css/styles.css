@@ -47,3 +47,29 @@ body{
 .helado{
     width: 100%;
 }
+.cajabody{
+    border: 2px red solid;
+    margin-top: 5%;
+    text-align: center;
+}
+.cajabody3{
+    border: 2px rgb(185, 185, 185) solid;
+    border-radius: 10px;
+    display:inline-block;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.texto1{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 40px;
+}
+.abajo{
+    margin-top: 70px;
+}
+.foto{
+    width: 100%;
+}

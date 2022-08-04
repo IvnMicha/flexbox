@@ -5,71 +5,135 @@ body{
     font-size: 14px;
     font-family: "Speedee",arial,helvetica,sans-serif;
 }
-.caja{
-    padding: 5px;
+
+/*encabezado*/
+
+.contenedor{
+    border: 2px red solid;
+    margin-bottom: 20px;
 }
-.caja2{
+.caja{
+    border: 2px orange solid;
     padding: 5px;
     margin: 5px;
     text-align: center;
 }
-.caja3{
+.cajon{
+    border: 2px yellow solid;
     padding: 0px;
 }
-.logo {
+.logo{
     width: 100%;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 5px;
 }
-.mi{
+.menu{
     padding-top: 5%;
 }
-.la{
-    padding-top: 10px;
+.link{
+    color: #464545;
+    text-decoration: none;
+}
+.aire{
+    padding-top: 16px;
 }
 .boton{
-    border: 1px solid #ffc400; /*anchura, estilo y color borde*/
-    padding-top: 15px; /*espacio alrededor texto*/
+    border: 1px solid #ffc400;
+    padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 25px;
     padding-right: 25px;
-    background-color: #ffc400; /*color botón*/
-    color: #464545; /*color texto*/
-    text-decoration: none; /*decoración texto*/
-    border-radius: 5px; /*bordes redondos*/
-}
-.boton1{
-    padding: 5px; /*espacio alrededor texto*/
+    background-color: #ffc400;
     color: #464545;
-    text-decoration: none; /*decoración texto*/
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/*imagen*/
+
+.contenedor1{
+    border: 2px red solid;
 }
 .helado{
     width: 100%;
 }
+
+/*contenido principal*/
+
 .cajabody{
     border: 2px red solid;
     margin-top: 5%;
     text-align: center;
 }
-.cajabody3{
-    border: 2px rgb(185, 185, 185) solid;
+.cajon1{
+    border: 4px rgb(212, 212, 212) solid;
     border-radius: 10px;
-    display:inline-block;
-    padding-top: 0px;
-    padding-bottom: 30px;
-    padding-left: 0px;
-    padding-right: 0px;
-
-}
-.texto1{
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-bottom: 40px;
-}
-.abajo{
-    margin-top: 70px;
+    padding: 0px;
 }
 .foto{
     width: 100%;
+}
+.texto{
+    border: 2px yellow solid;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+.baul{
+    border: 2px yellow solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*contenido principal parte 2*/
+
+.cajabody1{
+    border: 2px red solid;
+    background: #ffc400;
+    margin-top: 5%;
+}
+.caja1{
+    border: 2px rgb(117, 64, 3) solid;
+    padding: 5px;
+    margin: 5px;
+}
+.rojo{
+    width: 100%;
+    padding: 20px;
+}
+.boton2{
+    border: 1px solid #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #ffffff;
+    color: #464545;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.texto1{
+    text-align: center;
+}
+.aire1{
+    padding-top: 70px;
+}
+
+/*contenido principal parte 3*/
+.redes{
+    width: 18%;
+    padding: 10px;
+}
+.play{
+    height: 50px;
+    padding: 5px;
+}
+
+/*Pie de pagina*/
+.finali{
+    width: 10px;
+}
+.menu2{
+    padding: 5px;
 }
